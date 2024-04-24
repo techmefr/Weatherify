@@ -19,7 +19,7 @@ function Weather() {
 
   useEffect(() => {
     fetchData();
-  }, []);
+  }, [city]);
 
   const handleInputChange = (e) => {
     setCity(e.target.value);
